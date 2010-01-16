@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>SADict</title>
+    <style type="text/css" media="screen">@import "SADict.css";</style>    
+    
+    <script type="text/javascript" src="SADict.js" charset="utf-8"></script>
+    <script type="text/javascript" src="flip.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="flip.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body id="sadict" onload="SetUp();">
+    <div id="front" onmousemove="mousemove(event);" onmouseout="mouseexit(event);" align="center">
+      <div id="Text">SA Dictionary:</div>
+      <input id="Searchbox" name="Searchbox" type="search" size="16" maxlength="60" placeholder="Type text to translate" autosave="Searchbox" results="15" onsearch="searchSAD();">
+      <div id="Words" class="inactive"></div>
+      <div id="flip" class="flip" onclick="showBack(event);" onmouseover="enterflip(event);" onmouseout="exitflip(event)"></div>
+      <div id="fliprollie" class="flip"></div>
+    </div>
+    <div id="back" align="center">
+    <table width="300" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" valign="top">Widget by<br><a href="javascript:;" onclick='widget.openURL("http://linuxfan.org");'>Todor Dragnev</a></td>
+        <td align="center"><input type="submit" name="submitButtonName" value="OK" onclick="hideBack();"></td>
+      </tr>
+    </table>
+  </div>
+  
+  </body>
+</html>

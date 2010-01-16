@@ -1,0 +1,85 @@
+body {
+	margin:20px;
+	font: 12px "Lucida Grande";
+	background-image: url("Default.png");
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-shadow: 1px 1px 3px black;
+}
+#Words {
+	font-size:11px;
+	padding:5px;
+	text-align: left; 
+	position: absolute; 
+	z-index: 100; 
+	top: 50px; 
+	left: 25px; 
+	width: 288px; 
+	height: 310px; 
+	overflow: auto; 
+	-apple-dashboard-region:dashboard-region(control rectangle 0px 0px 0px 0px);
+	-khtml-user-select: text;
+	border:1px solid black;
+	background-image: url("Clear.png");
+}
+#Searchbox {
+	position: absolute; 
+	top: 20px; 
+	height: 20px;
+	left: 125px; 
+	width: 198px;
+}
+#Text {
+	color: white;
+	position: absolute; 
+	top: 21px; 
+	left: 20px; 
+	width: 100px;
+	font-weight: bold;
+	white-space: nowrap;
+	font-size: 13px;
+	font-family: "Lucida Grande", Arial;
+	text-shadow: 2px 2px 3px black;
+}
+
+#statusUpdate {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#back {
+	position: absolute;
+	top: 15px;
+	left: 28px;
+	font-size: 12px;
+	font-family: "Lucida Grande", Arial;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+}
+#back td { 
+	color: white;
+	font-size: 12px;
+}
+#back a { color: white; text-decoration: none; }
+#back a:hover { color: yellow; }
+
+.inactive {
+	display: none;
+}
+.active {
+	display: block;
+}
+
+ul {
+	margin-left: -15px;
+}
+
+li {
+	margin: 3px;
+}

@@ -1,0 +1,29 @@
+.flip {
+	position:absolute;
+	bottom:15px;
+	right:15px;
+	width:13px;
+	height:13px;
+}
+#flip {
+	opacity:0;
+	background:url(file:///System/Library/WidgetResources/ibutton/white_i.png) no-repeat top left;
+	z-index:8000;
+}
+#fliprollie {
+	display:none;
+	opacity:0.25;
+	background:url(file:///System/Library/WidgetResources/ibutton/white_rollie.png) no-repeat top left;
+	z-index:7999;
+}
+#front {
+	display:block;
+} 
+#back {
+	display:none;
+} 
+.doneButton {
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
