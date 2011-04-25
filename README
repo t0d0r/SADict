@@ -1,0 +1,20 @@
+== Info
+
+Dashboard for Mac OS X
+
+Wraps online SADict interface from http://sa.dir.bg/ to your desktop
+
+== Download
+
+  git clone git://github.com/t0d0r/SADict.git SADict.wdgt
+
+== Install
+
+In terminal execute following command:
+
+  open SADict.wdgt
+
+== Authors
+
+ * Todor Dragnev aka t0d0r
+ * user DAF from http://www.apple-bg.com/forums/
